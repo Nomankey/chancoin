@@ -1,4 +1,4 @@
-# Crypytocurrency implemented with Go
+# Crypytocurrency implemented by Go
 ## Goal
 * Gain understanding about the pieces that make up a cryptocurrency
 * not actually making a cryptocurrency that I can send to an exchange
@@ -20,9 +20,9 @@
 * Security 
 * Learn how to communicate between different nodes in our network to have our decentralized Peer to Peer(P2P) network
 
-## Why GO?
+## Why Go?
 *   There is mostly one way of doing things
     * for example in Go there is only for loop unlike map and filter in other languages
 * It is easy to understand quicker because not much creativity is used to write code
 * Standard library of Go is rich
-* Better pain, easier to write, and better in productivity
+* Better paid, easier to write, and better in productivity
