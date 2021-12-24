@@ -1,17 +1,14 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
 
-type person struct {
-	name string
-	age int
-}
+	"github.com/Nomankey/chancoin.git/person"
+)
 
-func (p person) sayHello() {
-	fmt.Printf("Hello! My name is %s, and I'm %d years old", p.name, p.age)
-}
 
 func main() {
-	nomankey := person{name: "chan", age: 17}
-	nomankey.sayHello()
+	nomankey := person.Person{}
+	nomankey.SeeDetails("chan", 25)
+	fmt.Println("\nSee main",nomankey)
 }
