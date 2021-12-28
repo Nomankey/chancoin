@@ -27,11 +27,11 @@ func (b *block)getHash() {
 } 
 
 func getPrevHash() string {
-	totalBlocks := len(GetBlockChain().blocks)
+	totalBlocks := len(GetBlockchain().blocks)
 	if totalBlocks == 0 {
 		return ""
 	}
-	return GetBlockChain().blocks[totalBlocks-1].Hash
+	return GetBlockchain().blocks[totalBlocks-1].Hash
 }
 
 
@@ -45,7 +45,7 @@ func (b *blockchain) AddBlock(data string) {
 	b.blocks = append(b.blocks, createBlock(data))
 }
 
-func GetBlockChain() *blockchain {
+func GetBlockchain() *blockchain {
 	if b == nil {
 		once.Do(func() {
 			b = &blockchain{}

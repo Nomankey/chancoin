@@ -6,7 +6,7 @@ import (
 )
 
 func main() {
-	chain := blockchain.GetBlockChain()
+	chain := blockchain.GetBlockchain()
 	chain.AddBlock("Second Block")
 	chain.AddBlock("Third Block")
 	chain.AddBlock("Fourth Block")
